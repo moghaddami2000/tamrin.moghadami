@@ -1,0 +1,10 @@
+# tamrin.moghadami
+# Receive some numbers from the user until zero is entered, and when zero is entered, print the numbers from the last to the first.
+z=[]
+a=int(input("enter number:"))
+while(a!=0):
+    z.append(a)
+    a=int(input("enter number:"))
+    
+    
+print(z[::-1])
